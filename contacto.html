@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Café París</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<h1>Café Paris</h1>
+
+<p id="eslogan">Un momento de relax</p>
+
+<ul>
+
+    <li><a href="index.html">Principal</a></li>
+
+    <li><a href="carta.html">Nuestra carta</a></li>
+
+    <li><a href="contacto.html">Contácte con nosotros</a></li>
+
+</ul>
+
+<h2>Contacte con nosotros</h2>
+
+<form action="procesacontacto.php" method="get">
+
+
+        <label class="nombre">Nombre y apellido:</label>
+
+        <input type="text" name="nombre"
+        required placeholder="Escriba su nombre y apellido">
+
+        <p></p>
+
+
+        <label class="nombre" for="fecha-nac">Fecha de nacimiento</label>
+
+        <input type="date" name="fecha-nac" id="fecha-nac" required>
+
+        <p></p>
+
+
+        <label for="cafe" class="nombre">Suele consumir:</label>
+        <label for="cafe" class="nombre">Cafe</label>
+        <input type="radio" name="consume" id="cafe" value="caf">
+
+
+        <label class="nombre" for="te">Tè</label>
+        <input type="radio" name="consume" id="te" value="te" checked>
+
+
+        <label class="nombre" for="ambos">Ambos</label>
+        <input type="radio" name="consume" id="ambos" value="ambos">
+
+        <p></p>
+
+        <label class="nombre" for="numero">Número de cafes al día</label>
+        <input type="number" name="numero" id="numero" min="1" max="5">
+
+        <p></p>
+
+        <label class="nombre" for="seleccionar">Seleccione su cafetería</label>
+        <select name="seleccionar" id="seleccionar">
+            <option value="Madrid" selected>Madrid</option>
+            <option value="Barcelona">Barcelona</option>
+            <option value="Sevilla">Sevilla</option>
+        </select>
+
+        <p></p>
+
+        <input type="checkbox" name="checkbox" id="checkbox">
+        <label for="">Deseo recibir informacion sobre novedades y ofertas</label>
+        
+
+<button type="submit">Enviar</button>
+
+<p></p>
+
+<button type="reset">Reiniciar</button>
+
+
+</form>
+
+</body>
+</html> 

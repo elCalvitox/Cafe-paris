@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Pacifico&family=Parisienne&family=Satisfy&display=swap');
+
+
+body {
+    padding: 0 20px 0 20px;
+    background-image: url(/images/cafe.jpg);
+    background-size:cover;
+    font-family: Parisienne;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    color: darkgoldenrod;
+    margin-bottom: 5px;
+    font-family: "Parisienne", cursive;
+}
+
+#eslogan {
+    font-family: "Caveat", cursive;
+    border: solid 2px cornsilk;
+    width: 40%;
+    margin: auto;
+    color: cornsilk;
+    font-size: 2em;
+    text-align: center;
+}
+
+h2 {
+    color: #FFE4C4;
+    font-family: "Pacifico", cursive;
+}
+
+li,a,ul {
+    font-family:"Pacifico", cursive ;
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+a {
+    font-size: 1.5em;
+    font-family: Pacifico;
+    text-decoration: none;
+}
+
+a:link {
+    color: white;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+a:active {
+    color: darkgoldenrod;
+}
+
+a:visited {
+    color: white;
+}
+
+.texto-normal {
+    text-align: justify;
+    line-height: 2;
+    padding: 30px;
+    font-family: "Satisfy", cursive;
+    font-size: 1.2em;
+    color: #FFE4C4;
+
+}
+
+#logocafe {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+#contenedor-logo {
+    text-align: center;
+}
+
+.fotocarta {
+    width: 200px;
+    height: 200px;
+}
+
+
+.categoria {
+    background-color: darkgoldenrod;
+    font-size: 2em;
+    text-shadow: 3px 3px white;
+}
+
+table,th,td {
+    border: 3px solid darkgoldenrod; 
+    border-collapse: collapse;
+    vertical-align: center;
+    width: 50%;
+    padding: 20px;
+}
+
+table {
+    background-color: cornsilk;
+    font-family: Satisfy;
+    font-size: 1.5em;
+    text-align: center;
+    margin: auto;
+}
+
+form {
+    border: 2px solid darkgoldenrod;
+    border-radius: 20px;
+    width: 50%;
+    margin: auto;
+    padding: 30px;
+    background-color: black;
+}
+
+p {
+    color: white;
+}
+
+.nombre {
+    color: white;
+}
+
+label {
+    font-family: "Caveat", cursive;
+    color: cornsilk;
+    font-size: 1.5em;
+}
+
+input [type="submit"] {
+    background-color: beige;
+    padding: 20px;
+    border-radius: 10px;
+
+}
