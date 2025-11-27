@@ -3,7 +3,7 @@
 
 body {
     padding: 0 20px 0 20px;
-    background-image: url(/images/cafe.jpg);
+    background-image: url(images/cafe.jpg);
     background-size:cover;
     font-family: Parisienne;
 }
