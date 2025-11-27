@@ -6,6 +6,7 @@ body {
     background-image: url("../images/cafe.jpg");
     background-size:cover;
     font-family: Parisienne;
+    background-color: black;
 }
 
 h1 {
